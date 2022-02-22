@@ -81,6 +81,7 @@ public class Recursividad {
    }
 public static int fibCic(int n)
    {
+       if (n==0) return 0;
        int f1 = 1, f2 = 1, nuevo;
        while (n > 2)
        {

@@ -13,7 +13,7 @@ public class Numero {
     }
 
     public Numero() {
-        this(25);
+        this(8);
     }
 
     public int getValor() {
